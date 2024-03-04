@@ -1,3 +1,7 @@
+.titulo_principal{
+    padding-left: 30px;
+}
+
 #banner{
     width: 100%;
 }
@@ -7,7 +11,7 @@
     padding: 20px;
 }
 
-h1{
+.titulos{
     text-align: center;
 }
 
@@ -27,10 +31,6 @@ em strong{
 .diferenciales{
     background: #ffffff;
     padding-top: 30px;
-}
-
-h2{
-    text-align: center;
 }
 
 .items{
