@@ -1,17 +1,17 @@
-.titulo_principal{
+.titulo-principal{
     padding-left: 30px;
 }
 
 #banner{
-    width: 100%;
+    width:100%;
 }
 
 .principal{
-    background: #cccccc;
+    background: #CCCCCC;
     padding: 20px;
 }
 
-.titulos{
+.titulo-centralizado{
     text-align: center;
 }
 
@@ -19,17 +19,17 @@ p{
     text-align: center;
 }
 
+em strong{
+    color:red;
+}
+
 #mision{
     font-size: 20px;
 }
 
-em strong{
-    color: red;
-}
-
 .diferenciales{
-    background: #ffffff;
-    padding-top: 30px;
+    background: #FFFFFF;
+    padding: 30px;
 }
 
 .items{
@@ -39,10 +39,11 @@ em strong{
 ul{
     display: inline-block;
     vertical-align: top;
+    width: 20%;
     margin-right: 15%;
-    width: 30%;
 }
 
-#diff{
+.imagenDiferenciales{
     width: 50%;
 }
+
