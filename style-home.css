@@ -1,5 +1,36 @@
-.titulo-principal{
-    padding-left: 30px;
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caja{
+    width: 1420px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top:110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
 }
 
 #banner{
@@ -12,11 +43,19 @@
 }
 
 .titulo-centralizado{
+    font-size: 30px;
+    font-weight: bold;
     text-align: center;
+    margin: 20px;
 }
 
 p{
     text-align: center;
+    line-height: 2em;
+}
+
+p strong{
+    font-weight: bold;
 }
 
 em strong{
@@ -25,6 +64,7 @@ em strong{
 
 #mision{
     font-size: 20px;
+    font-style: italic;
 }
 
 .diferenciales{
@@ -33,17 +73,32 @@ em strong{
 }
 
 .items{
+    font-size: 150%;
     font-style: italic;
+    line-height: 2em;
 }
 
-ul{
+.diff{
     display: inline-block;
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
+    margin-left: 5%;
+    list-style: disc;
 }
 
 .imagenDiferenciales{
     width: 50%;
 }
 
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding:40px;
+}
+
+.copyright{
+    color:#FFFFFF;
+    font-size: 13px;
+    margin:20px;
+}
