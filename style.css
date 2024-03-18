@@ -1,3 +1,10 @@
+body{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 309;
+  font-style: normal;
+}
+
 header {
     background-color: #BBBBBB;
     padding: 20px 0;
@@ -31,6 +38,10 @@ nav a{
 nav a:hover{
     color: #c78c19;
     text-decoration: underline;
+}
+
+.caja img:hover{
+    cursor: pointer;
 }
 
 .productos{
@@ -179,6 +190,20 @@ td, th{
     width: 120px;
     float: left;
     margin: 0 20px 20px 0;
+}
+
+.mapa{
+    padding: 3em 0;
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.video{
+    width: 1120px;
+    margin: 1em auto;
 }
 
 .imagenDiferenciales{
