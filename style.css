@@ -180,10 +180,6 @@ td, th{
     font-weight: bold;
 }
 
-p:first-line{
-    font-style: italic;
-}
-
 .principal p{
     margin: 0 0 1em;
 }
@@ -247,9 +243,33 @@ p:first-line{
 
 .imagen-diferenciales{
     width: 60%;
+    transition: 480ms;
+    box-shadow:0px 0px 100px -12px black;
+}
+
+.imagen-diferenciales:hover{
+    opacity: 80%;
 }
 
 .video{
     width: 1120px;
     margin: 1em auto;
 }
+
+/*
+main > p{
+    background: red;
+}
+
+img + p{
+    background: red;
+}
+
+img ~ p{
+    background: red;
+}
+
+.principal p:not(#mision){
+    background: orange;
+}
+*/
